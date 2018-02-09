@@ -10,10 +10,12 @@ environment:
 
   matrix:
     - TARGET_ARCH: x86
+      AM_VERSION: 1.15
       CONDA_PY: 27
       CONDA_INSTALL_LOCN: C:\\Miniconda
 
     - TARGET_ARCH: x64
+      AM_VERSION: 1.15
       CONDA_PY: 27
       CONDA_INSTALL_LOCN: C:\\Miniconda-x64
 
