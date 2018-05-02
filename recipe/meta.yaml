@@ -1,6 +1,6 @@
 {% set name = "fswatch" %}
-{% set version = "1.11.2" %}
-{% set sha256 = "b7dadb84848ce666aac0311f9b4c739fbfee6a90c6097807a1f45ad4367294c2" %}
+{% set version = "1.11.3" %}
+{% set sha256 = "21f60ff255bd8dac72c8eb917b08c10ef2a040b380876a35357f6a860282ac83" %}
 
 package:
   name: {{ name|lower }}
