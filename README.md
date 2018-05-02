@@ -17,14 +17,16 @@ Summary: "A cross-platform file change monitor with multiple backends: Apple OS 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/fswatch-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/fswatch-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/fswatch-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/fswatch-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/fswatch-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/fswatch-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/fswatch-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/fswatch-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/fswatch/badges/version.svg)](https://anaconda.org/conda-forge/fswatch)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/fswatch/badges/downloads.svg)](https://anaconda.org/conda-forge/fswatch)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-fswatch-green.svg)](https://anaconda.org/conda-forge/fswatch) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/fswatch.svg)](https://anaconda.org/conda-forge/fswatch) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/fswatch.svg)](https://anaconda.org/conda-forge/fswatch) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/fswatch.svg)](https://anaconda.org/conda-forge/fswatch) |
 
 Installing fswatch
 ==================
