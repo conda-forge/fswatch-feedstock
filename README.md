@@ -3,7 +3,7 @@ About fswatch
 
 Home: https://github.com/emcrisostomo/fswatch
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Feedstock license: BSD-3-Clause
 
