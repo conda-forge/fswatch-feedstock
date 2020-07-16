@@ -1,15 +1,11 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About fswatch
 =============
 
 Home: https://github.com/emcrisostomo/fswatch
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: "A cross-platform file change monitor with multiple backends: Apple OS X
  File System Events, *BSD kqueue, Solaris/Illumos File Events Notification,
@@ -21,9 +17,53 @@ Summary: "A cross-platform file change monitor with multiple backends: Apple OS 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/fswatch-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/fswatch-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/fswatch-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/fswatch-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+
+<table>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=338&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fswatch-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=338&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fswatch-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=338&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fswatch-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
+    </td>
+  </tr>
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -68,7 +108,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 

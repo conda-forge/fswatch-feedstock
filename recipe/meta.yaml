@@ -1,6 +1,6 @@
 {% set name = "fswatch" %}
-{% set version = "1.14.0" %}
-{% set sha256 = "44d5707adc0e46d901ba95a5dc35c5cc282bd6f331fcf9dbf9fad4af0ed5b29d" %}
+{% set version = "1.15.0" %}
+{% set sha256 = "26b4a002dc9c5f0a5a7605e2d9c60588ea338c077fccfa4473d2b9b8b8bb6f06" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/emcrisostomo/fswatch
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: |
