@@ -1,6 +1,6 @@
 {% set name = "fswatch" %}
-{% set version = "1.15.0" %}
-{% set sha256 = "26b4a002dc9c5f0a5a7605e2d9c60588ea338c077fccfa4473d2b9b8b8bb6f06" %}
+{% set version = "1.16.0" %}
+{% set sha256 = "95ece85eb01af71e99afef0173755fcedb737b639163f8efc7fed674f6f5372f" %}
 
 package:
   name: {{ name|lower }}
@@ -26,8 +26,6 @@ test:
     - fswatch --help
     - test -d "${PREFIX}/include/libfswatch"              # [unix]
     - test -f "${PREFIX}/lib/libfswatch${SHLIB_EXT}"      # [unix]
-    - conda inspect linkages -p "${PREFIX}" "{{ name }}"  # [unix]
-    - conda inspect objects -p "${PREFIX}" "{{ name }}"   # [osx]
 
 about:
   home: https://github.com/emcrisostomo/fswatch
