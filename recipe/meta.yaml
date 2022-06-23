@@ -19,6 +19,7 @@ requirements:
     - {{ compiler("c") }}
     - {{ compiler("cxx") }}
     - libtool                # [unix]
+    - make                   # [unix]
   host:
 
 test:
