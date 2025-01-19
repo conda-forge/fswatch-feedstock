@@ -1,6 +1,6 @@
 {% set name = "fswatch" %}
-{% set version = "1.17.0" %}
-{% set sha256 = "988d9fca774eb9b2d1b3575ef56c5ce7fdcc718dbabaf727178651eac11bdabc" %}
+{% set version = "1.18.1" %}
+{% set sha256 = "199609ca2aeb3aa7dc07980c616527805d0c5d017945fe7a81ef8d609104e2aa" %}
 
 package:
   name: {{ name|lower }}
@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - {{ compiler("c") }}
+    - {{ stdlib("c") }}
     - {{ compiler("cxx") }}
     - libtool                # [unix]
     - make                   # [unix]
